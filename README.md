@@ -1,38 +1,37 @@
-# Calorie Burnt Prediction & Analytics Pipeline
-Project Overview
-This is an end-to-end Machine Learning application designed to predict calories burned during physical activity based on physiological parameters. Built as part of the CDAC DBDA curriculum, the project demonstrates a complete data lifecycle—from exploratory analysis in Jupyter Notebooks to a live, interactive web application.
+# 🔥 Calorie Burnt Prediction & Analytics Pipeline
 
-# 🚀 Key Features
-- Predictive Modeling: Utilizes an XGBoost Regressor for high-accuracy calorie estimation based on user features.
+### **Project Overview**
+This is an end-to-end Machine Learning application designed to predict calories burned during physical activity based on physiological parameters.  the project demonstrates a complete data lifecycle—from exploratory analysis in Jupyter Notebooks to a live, interactive web application.
 
-- Live Data Logging: Integrated with SQLite to automatically log every user prediction (Gender, Age, Heart Rate, etc.) in real-time.
 
-- Interactive Analytics: A built-in dashboard within the app allows for the visualization of historical session data and user trends.
 
-- Streamlit Deployment: Optimized for cloud hosting, providing a public URL for instant accessibility.
+### **🚀 Key Features**
+* **Predictive Modeling:** Utilizes an **XGBoost Regressor** for high-accuracy calorie estimation based on user features.
+* **Live Data Logging:** Integrated with **SQLite** to automatically log every user prediction (Gender, Age, Heart Rate, etc.) in real-time.
+* **Interactive Analytics:** A built-in dashboard within the app allows for the visualization of historical session data and user trends.
+* **Streamlit Deployment:** Optimized for cloud hosting, providing a public URL for instant accessibility.
 
-# 🛠️ Tech Stack
-Language: Python 3.9
+---
 
-ML Libraries: XGBoost, Scikit-Learn
+### **🛠️ Tech Stack**
+* **Language:** Python 3.9
+* **ML Libraries:** XGBoost, Scikit-Learn
+* **Data Handling:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Web Framework:** Streamlit
+* **Database:** SQLite3
 
-Data Handling: Pandas, NumPy
+---
 
-Visualization: Matplotlib, Seaborn
-
-Web Framework: Streamlit
-
-Database: SQLite3
-
-📁 Repository Structure
-Plaintext
+### **📁 Repository Structure**
+```text
 ├── data/               # Raw exercise and calorie datasets
 ├── models/             # Serialized XGBoost model (.pkl)
 ├── notebooks/          # Exploratory Data Analysis (EDA) & Training logic
 ├── src/                # Production source code
 │   └── app.py          # Main Streamlit application & Database logic
 └── requirements.txt    # Project dependencies
-
+```
 ⚙️ Installation & Local Usage
 1. Clone the repository:
 
@@ -52,3 +51,4 @@ Feature Monitoring: Tracking the range of inputs provided by real users.
 Dataset Expansion: Gathering new, real-world data points for future model retraining (v2.0).
 
 Audit Trails: Maintaining a transparent log of all model inferences with timestamps.
+
