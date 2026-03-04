@@ -1,4 +1,4 @@
-# 🔥 Calorie Burnt Prediction & Analytics Pipeline
+#  Calorie Burnt Prediction & Analytics Pipeline
 
 ### **Project Overview**
 This is an end-to-end Machine Learning application designed to predict calories burned during physical activity based on physiological parameters.  the project demonstrates a complete data lifecycle—from exploratory analysis in Jupyter Notebooks to a live, interactive web application.
@@ -32,18 +32,22 @@ This is an end-to-end Machine Learning application designed to predict calories 
 │   └── app.py          # Main Streamlit application & Database logic
 └── requirements.txt    # Project dependencies
 ```
-⚙️ Installation & Local Usage
-1. Clone the repository:
+# ⚙️ Installation & Local Usage
+- 1. Clone the repository:
 
-Bash
+```Bash
 git clone https://github.com/siddhxrth7/Calories-burnt-prediction-model.git
 cd Calories-burnt-prediction-model
-2. Run the application:
+```
+- 2. Run the application:
 
-Bash
+```Bash
 pip install -r requirements.txt
 streamlit run src/app.py
-📊 Data Engineering Highlights
+```
+# 📊 Data Engineering Highlights
+
+
 A core component of this project is the Data Feedback Loop. By using SQLite, the application transforms a simple prediction tool into a data collection system. This architectural choice allows for:
 
 Feature Monitoring: Tracking the range of inputs provided by real users.
@@ -51,4 +55,5 @@ Feature Monitoring: Tracking the range of inputs provided by real users.
 Dataset Expansion: Gathering new, real-world data points for future model retraining (v2.0).
 
 Audit Trails: Maintaining a transparent log of all model inferences with timestamps.
+
 
